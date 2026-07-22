@@ -5,7 +5,8 @@
   <description>ROS package containing SAM2 ONNX models for image segmentation.</description>
 
   <maintainer email="david.sobek@picknik.ai">David Sobek</maintainer>
-  <license>BSD 3-Clause</license>
+  <license file="LICENSE">Apache-2.0</license>
+  <license file="LICENSE.build">BSD-3-Clause</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
