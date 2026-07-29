@@ -1,7 +1,5 @@
-Any contribution that you make to this repository will
-be under the 3-Clause BSD License, as dictated by that
-[license](https://opensource.org/licenses/BSD-3-Clause).
-
 # Contributing to this Repository
 
-Thanks for getting involved! If you want to add to this repository, please reach out to support@picknik.ai.
+Thanks for getting involved! If you want to contribute to this repository, please reach out to support@picknik.ai.
+
+Contributions outside `models/` are made under the [BSD 3-Clause License](LICENSE.build), unless a file states otherwise. Contributions containing or derived from the SAM 2 models are governed by the [Apache License 2.0](LICENSE) and must retain the [NOTICE](NOTICE) attribution.

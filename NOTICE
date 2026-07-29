@@ -1,0 +1,6 @@
+SAM 2
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+This package contains ONNX exports of the SAM 2 model weights, licensed
+under the Apache License, Version 2.0 (see LICENSE). If you redistribute
+the models or derivative works, retain this NOTICE and the LICENSE file.
