@@ -1,0 +1,16 @@
+# SAM2 point-prompted segmentation model bundle manifest. Consumed by MoveIt Pro's
+# runtime-neutral inference layer (moveit_pro_ml::model::loadBundle): artifact paths
+# are relative to this file, and each digest is verified at load time.
+schema_version: 1
+model_id: sam2_segment
+model_version: sam2_hiera_large
+graph_abi: moveit_pro.sam2_segment.v1
+
+runtimes:
+  onnxruntime:
+    image_encoder:
+      path: sam2_hiera_large_encoder.onnx
+      sha256: "c99ab89a38385753aff7ea9155f0808ad5535bc55ea2a49320254e39e4011630"
+    decoder:
+      path: sam2_decoder.onnx
+      sha256: "1f448cdb479e6ec14e61c4756138eb4081ce7f8a11ca43a0a24856d5e8b61b6f"
