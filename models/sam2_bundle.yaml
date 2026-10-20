@@ -1,0 +1,15 @@
+schema_version: 1
+model_id: sam2
+model_version: sam2.1_hiera_l
+graph_abi: moveit_pro.sam2.v1
+runtimes:
+  onnxruntime:
+    image_encoder:
+      path: sam2.1_hiera_l_image_encoder.onnx
+      sha256: a7e0d9343e80346b23e22ff2bf17565507eb1c92f444531a45cf5b6db72db9ae
+    prompt_encoder:
+      path: sam2.1_prompt_encoder.onnx
+      sha256: 9cd38b892c658880b4c69957eb3c87c1717c4c9f2d00ed6b0bc2dc924d37149a
+    decoder:
+      path: sam2.1_decoder.onnx
+      sha256: 09755e06ef61979060a4ace1970ad63a998ded3fd636bb6a113fdb9935a39865
