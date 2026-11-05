@@ -2,7 +2,7 @@
 <package format="3">
   <name>moveit_pro_sam2</name>
   <version>0.1.0</version>
-  <description>ROS package containing SAM2 ONNX models for image segmentation.</description>
+  <description>ROS package containing SAM2.1 ONNX models for image segmentation.</description>
 
   <maintainer email="david.sobek@picknik.ai">David Sobek</maintainer>
   <license file="LICENSE">Apache-2.0</license>
